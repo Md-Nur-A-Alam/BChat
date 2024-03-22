@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444865283646",
+    "project_id": "b-chat-backend",
+    "storage_bucket": "b-chat-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444865283646:android:f800818f1cae9c7d7ef36f",
+        "android_client_info": {
+          "package_name": "com.example.b_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIzcktm6otvpnsnm9aC2GL-MKjnc2lk6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
