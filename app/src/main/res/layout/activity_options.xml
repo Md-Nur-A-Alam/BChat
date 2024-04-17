@@ -1,0 +1,64 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_margin="20dp"
+android:weightSum="100"
+tools:context=".OptionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="20">
+
+        <ImageButton
+            android:id="@+id/socialmedia"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_weight="20"
+            android:backgroundTint="@color/my_primary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/socialmedia" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="20">
+
+        <ImageButton
+            android:id="@+id/ecommerce"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_weight="20"
+            android:backgroundTint="@color/my_secondary"
+            android:src="@drawable/ecommerce"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="20">
+
+        <ImageButton
+            android:id="@+id/moneytransection"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_weight="20"
+            android:backgroundTint="@color/my_primary"
+            android:src="@drawable/moneytransection"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -92,6 +92,7 @@
         <com.hbb20.CountryCodePicker
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            app:ccp_defaultNameCode="BD"
             app:ccp_showFlag="true"
             app:ccp_showNameCode="false"
             android:id="@+id/login_countrycode"/>
